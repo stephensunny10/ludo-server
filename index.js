@@ -765,14 +765,14 @@ console.log(s); */
 
 			} else {
 				if (parseInt(data.player_count) == 2) {
-					roomStart = 20000001;
-					roomEnd = 30000000;
+					roomStart = 2000001;
+					roomEnd = 3000000;
 				} else if (parseInt(data.player_count) == 3) {
-					roomStart = 30000001;
-					roomEnd = 40000000;
+					roomStart = 3000001;
+					roomEnd = 4000000;
 				} else if (parseInt(data.player_count) == 4) {
-					roomStart = 40000001;
-					roomEnd = 50000000;
+					roomStart = 4000001;
+					roomEnd = 5000000;
 				}
 			}
 
